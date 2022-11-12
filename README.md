@@ -54,11 +54,11 @@ Minimize / Expand. Just a minimize button functionality, but programmatically.
 MyConsole.collapse()
 MyConsole.expand()
 ```
-Clear history and view from messages displayed in the console.
+Clear history and view from messages displayed in the console. If onlyLast = true - will delete only last element.
 
 Returns object { removedElements: number, responce: string }
 ```js
-const cache = MyConsole.clear()
+const cache = MyConsole.clear(onlyLast? boolean)
 
 cache.removedElements
 cache.responce
