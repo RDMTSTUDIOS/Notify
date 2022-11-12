@@ -79,6 +79,11 @@ console.log(cache);
 ```
 ![Снимок экрана 2022-11-12 в 17 43 27](https://user-images.githubusercontent.com/118057254/201479490-47ed3bbd-80f5-4e81-8238-4d0bd6e0e294.png)
 
+Hide console (not just minimize)
+```js
+MyConsole.hide()
+```
+
 ## Interface
 
 There are two buttons - minimize view and clear history.
