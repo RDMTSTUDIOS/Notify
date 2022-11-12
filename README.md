@@ -63,6 +63,21 @@ const cache = MyConsole.clear()
 cache.removedElements
 cache.responce
 ```
+See console details
+```js
+const cache = MyConsole.info
+
+cache.historySize: number
+cache.id: string
+cache.interface: ---
+cache.logger: boolean
+```
+Return console logs. if header = true - some additional details will appear in the top of responce. Default false.
+```js
+const cache = MyConsole.logs(header: boolean)
+console.log(cache);
+```
+![Снимок экрана 2022-11-12 в 16 51 01](https://user-images.githubusercontent.com/118057254/201479209-bdb0dc56-1ac1-4d76-aa50-6b12adc07846.png)
 
 ## Interface
 
