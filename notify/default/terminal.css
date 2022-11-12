@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+.Notify-Terminal-View {
+
+    z-index: 10000;
+    user-select: none;
+
+    font-family: 'Inter', sans-serif;
+
+    position: absolute;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    width: 430px;
+    
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 11px;
+    
+    box-shadow: 0px 0px 19px 3px rgba(0, 0, 0, 0.4), 0px 0px 0px 1px rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+
+    background: rgba(0, 0, 0, 0.9);
+}
+
+
+.Notify-Terminal-Title {
+
+    cursor: grab;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+
+    width: 100%;
+
+    font-size: 13px;
+    line-height: 17px;
+
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.Notify-Terminal-Title:active {
+    cursor: grabbing;
+}
+
+.Notify-Terminal-Button {
+
+    cursor: pointer;
+
+    position: absolute;
+    top: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 16px;
+    height: 16px;
+
+    background-color: #00FF66;
+    border: 1px solid #444444;
+    border-radius: 50%;
+}
+
+.Notify-Terminal-Button:hover {
+    background-color: #00CF53;
+}
+
+.Notify-Terminal-Button:active {
+    background-color: #01AC46;
+}
+
+.Notify-conf-collapse {
+
+    left: 11.5px;
+}
+
+.Notify-conf-clear {
+
+    left: 39px;
+}
+
+.Notify-Terminal-Cell {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2px 0px 5px;
+    gap: 1px;
+
+    width: 100%;
+    min-height: 164px;
+}
+
+.Notify-Terminal-Cell > div {
+
+    cursor: copy;
+
+    display: flex;
+    flex-direction: row;
+    
+    padding: 3px 12px 1px 12px;
+    gap: 10px;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 17px;
+
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.Notify-Terminal-Cell > div:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.Notify-Terminal-Cell > div:active {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.Notify-Terminal-Cell > div:first-child {
+    
+    border-top: 1px solid #543413;
+    border-bottom: 1px solid #543413;
+    
+    background-color: #30200E;
+
+}
+
+.Notify-Terminal-Cell > div:first-child:hover {
+    background-color: #301A0E;
+}
+
+.Notify-Terminal-Cell > div:first-child:active {
+    background-color: #30100E;
+}
