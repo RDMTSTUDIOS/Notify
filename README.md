@@ -15,7 +15,11 @@ const MyConsole = Notify.initConsole({
     logger: true, 
 });
 
+MyConsole.display();
+
 // id: string - Displayed name. More for semantic.
 // historySize: number - Maximum logs, displayed in one time.
 // logger: boolean - If true - will write logs you can later export. Default - false.
+
+// .display() mounts element to DOM (Just makes it visible, logs and messages are still working even it don't mounted). it can take a parameter - custom mount point. By default it's document.body.
 ```
