@@ -7,7 +7,8 @@ Custom visual console for web development.
 Import Notiy and initiate first custom console.
 
 ```js
- import Notify from "..."
+// entry point is index 
+ import Notify from "..." 
  
- 
+ const MyConsole = Notify.
 ```
