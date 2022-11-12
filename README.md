@@ -6,7 +6,8 @@ Custom simple draggble visual console for web development.
 
 Import Notify and initiate first custom console.
 
-> For proper work use bundlers of any others tool that can resolve static import paths. Parcel, Vite will be ok.
+> For proper work use bundlers or any other tool that can resolve static import paths.
+> Parcel, Vite (ViteJS) will be ok.
 
 ```js
 import Notify from "..." // Entry point is notify/index.ts
