@@ -35,15 +35,15 @@ Highlighted line - last message.
 ## API
 
 Return console
-```
+```js
 const customConsole = Notify.initConsole()
 ```
 Mount interface to document
-```
+```js
 customConsole.display(mountPoint?: any);
 ```
 Send message. Similar to console.log(), but logs a string.
-```
+```js
 customConsole.message(content: any);
 ```
 
