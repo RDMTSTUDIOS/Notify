@@ -32,6 +32,13 @@ Highlighted line - last message.
 
 ![Снимок экрана 2022-11-12 в 16 46 25](https://user-images.githubusercontent.com/118057254/201477439-fb154a49-2f29-41f6-a350-d67b79ef2f92.png)
 
+## API
+
+Returns console
+```
+Notify.initConsole()
+```
+
 ## Interface
 
 There are two buttons - minimize view and clear history.
