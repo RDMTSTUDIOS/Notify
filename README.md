@@ -43,7 +43,7 @@ Mount interface to document
 customConsole.display(mountPoint?: any)
 ```
 Send message. Similar to console.log(), but logs a string.
-Return 'responce': string - what was send and deleted.
+Return responce: string - what was send and deleted.
 ```js
 customConsole.message(content: any)
 ```
@@ -52,7 +52,15 @@ Minimize / Expand. Just a minimize button functionality, but programmatically.
 MyConsole.collapse()
 MyConsole.expand()
 ```
-Clear history and view from messages, displayed in the console.
+Clear history and view from messages displayed in the console.
+
+Returns object { removedElements: number, responce: string }
+```js
+const cache = MyConsole.clear()
+
+cache.removedElements
+cache.responce
+```
 
 ## Interface
 
