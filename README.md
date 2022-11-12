@@ -47,6 +47,8 @@ Return responce: string - what was send and deleted.
 ```js
 customConsole.message(content: any)
 ```
+![Снимок экрана 2022-11-12 в 16 46 59](https://user-images.githubusercontent.com/118057254/201478896-a8f0caac-e673-4509-b6d4-cfb2daf20aec.png)
+
 Minimize / Expand. Just a minimize button functionality, but programmatically.
 ```js
 MyConsole.collapse()
