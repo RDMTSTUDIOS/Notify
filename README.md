@@ -1,3 +1,6 @@
 # Notify
 
-> Custom console for web development
+Custom visual console for web development
+
+## Usage
+
