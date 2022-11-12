@@ -25,6 +25,7 @@ MyConsole.display();
 // .display() mounts element to DOM (Just makes it visible, logs and messages are still working even it don't mounted). it can take a parameter - custom mount point. By default it's document.body.
 ```
 Your first console will appear on the page. You can create any amount of consoles.
+
 Consoles are fully draggble, you can put them in any place on the page by dragging them by the title part of the console.
 
 Highlighted line - last message.
