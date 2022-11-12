@@ -7,7 +7,7 @@ Custom visual console for web development.
 Import Notiy and initiate first custom console.
 
 ```js
-import Notify from "..." //Entry point is notify/index.ts
+import Notify from "..." // Entry point is notify/index.ts
 
 const MyConsole = Notify.initConsole({
     id: 'Debug',
@@ -40,11 +40,17 @@ const customConsole = Notify.initConsole()
 ```
 Mount interface to document
 ```js
-customConsole.display(mountPoint?: any);
+customConsole.display(mountPoint?: any)
 ```
 Send message. Similar to console.log(), but logs a string.
+Return 'responce': string - what was send and deleted.
 ```js
-customConsole.message(content: any);
+customConsole.message(content: any)
+```
+Minimize / Expand. Just a minimize button functionality, but programmatically.
+```js
+MyConsole.collapse()
+MyConsole.expand()
 ```
 
 ## Interface
