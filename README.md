@@ -34,9 +34,17 @@ Highlighted line - last message.
 
 ## API
 
-Returns console
+Return console
 ```
-Notify.initConsole()
+const customConsole = Notify.initConsole()
+```
+Mount interface to document
+```
+customConsole.display(mountPoint?: any);
+```
+Send message. Similar to console.log(), but logs a string.
+```
+customConsole.message(content: any);
 ```
 
 ## Interface
