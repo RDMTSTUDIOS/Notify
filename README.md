@@ -1,6 +1,6 @@
 # Notify
 
-Custom visual console for web development.
+Custom simpli draggble visual console for web development.
 
 ## Usage
 
@@ -26,7 +26,7 @@ MyConsole.display();
 ```
 Your first console will appear on the page. You can create any amount of consoles.
 
-Consoles are fully draggble, you can put them in any place on the page by dragging them by the title part of the console.
+**Consoles are fully draggble, you can put them in any place on the page by dragging them by the title part of the console.**
 
 Highlighted line - last message.
 
