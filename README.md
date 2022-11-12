@@ -40,5 +40,6 @@ There are two buttons - minimize view and clear history.
 **Clear history** deletes all elements from the history.
 
 ![Снимок экрана 2022-11-12 в 16 46 59](https://user-images.githubusercontent.com/118057254/201477944-23c2e381-82b4-4e54-bd48-7810d58a780e.png)
-![Снимок экрана 2022-11-12 в 16 46 25](https://user-images.githubusercontent.com/118057254/201477946-9c7e365d-aeb4-47d3-9dcb-48fadc4390e7.png)
+![Снимок экрана 2022-11-12 в 16 46 25](https://user-images.githubusercontent.com/118057254/201478046-86fe9020-2512-4c00-a2b0-72ec2929aa3f.png)
+
 
