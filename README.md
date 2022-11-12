@@ -77,7 +77,7 @@ Return console logs. if header = true - some additional details will appear in t
 const cache = MyConsole.logs(header: boolean)
 console.log(cache);
 ```
-![Снимок экрана 2022-11-12 в 16 51 01](https://user-images.githubusercontent.com/118057254/201479209-bdb0dc56-1ac1-4d76-aa50-6b12adc07846.png)
+![Снимок экрана 2022-11-12 в 17 43 27](https://user-images.githubusercontent.com/118057254/201479490-47ed3bbd-80f5-4e81-8238-4d0bd6e0e294.png)
 
 ## Interface
 
