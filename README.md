@@ -46,27 +46,30 @@ By clicking on the any cell message content will be copied to clipboard.
 
 ## API
 
-Return console
+#### Return console
 ```js
 const customConsole = Notify.initConsole()
 ```
-Mount interface to document
+#### Mount interface to document
 ```js
 customConsole.display(mountPoint?: any)
 ```
-Send message. Similar to console.log(), but logs a string.
+#### Send message.
+Similar to console.log(), but logs a string.
 Return responce: string - what was send and deleted.
 ```js
 customConsole.message(content: any)
 ```
 ![Снимок экрана 2022-11-12 в 16 46 59](https://user-images.githubusercontent.com/118057254/201478896-a8f0caac-e673-4509-b6d4-cfb2daf20aec.png)
 
-Minimize / Expand. Just a minimize button functionality, but programmatically.
+#### Minimize / Expand.
+Just a minimize button functionality, but programmatically.
 ```js
 MyConsole.collapse()
 MyConsole.expand()
 ```
-Clear history and view from messages displayed in the console. If onlyLast = true - will delete only last element.
+#### Clear history and view from messages displayed in the console.
+If onlyLast = true - will delete only last element.
 
 Returns object { removedElements: number, responce: string }
 ```js
@@ -75,7 +78,7 @@ const cache = MyConsole.clear(onlyLast? boolean)
 cache.removedElements
 cache.responce
 ```
-See console details
+#### See console details
 ```js
 const cache = MyConsole.info
 
@@ -84,14 +87,15 @@ cache.id: string
 cache.interface: ---
 cache.logger: boolean
 ```
-Return console logs. if header = true - some additional details will appear in the top of responce. Default false.
+#### Return console logs.
+If header = true - some additional details will appear in the top of responce. Default false.
 ```js
 const cache = MyConsole.logs(header: boolean)
 console.log(cache);
 ```
 ![Снимок экрана 2022-11-12 в 17 43 27](https://user-images.githubusercontent.com/118057254/201479490-47ed3bbd-80f5-4e81-8238-4d0bd6e0e294.png)
 
-Hide console (not just minimize)
+#### Hide console (not just minimize)
 ```js
 MyConsole.hide()
 ```
