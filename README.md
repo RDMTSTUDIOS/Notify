@@ -52,6 +52,7 @@ Minimize / Expand. Just a minimize button functionality, but programmatically.
 MyConsole.collapse()
 MyConsole.expand()
 ```
+Clear history and view from messages, displayed in the console.
 
 ## Interface
 
