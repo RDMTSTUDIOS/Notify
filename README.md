@@ -6,8 +6,6 @@ Custom simple draggble visual console for web development.
 
 Import Notify and initiate first custom console.
 
-> For proper work use bundlers or any other tool that can resolve static import paths.
-
 ```js
 import Notify from "..." // Entry point is notify/index.ts
 
