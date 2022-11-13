@@ -38,7 +38,7 @@ There are two buttons - minimize view and clear history.
 
 **Minimize view** will hide history but not clear it. History is still will receive messages and write logs.
 
-![Снимок экрана 2022-11-12 в 16 46 38](https://user-images.githubusercontent.com/118057254/201477848-5e4f4d8f-9f3a-4137-8a21-ef2264c268e6.png)
+![Снимок экрана 2022-11-13 в 22 07 56](https://user-images.githubusercontent.com/118057254/201539587-ddc1d7b0-f1d6-4743-8c60-d009dccd7a60.png)
 
 **Clear history** deletes all elements from the history.
 
@@ -60,7 +60,7 @@ Return responce: string - what was send and deleted.
 ```js
 customConsole.message(content: any)
 ```
-![Снимок экрана 2022-11-13 в 22 07 56](https://user-images.githubusercontent.com/118057254/201539587-ddc1d7b0-f1d6-4743-8c60-d009dccd7a60.png)
+![Снимок экрана 2022-11-13 в 22 05 30](https://user-images.githubusercontent.com/118057254/201539732-8da9da62-0bbc-4a3a-a572-f0dac2857e13.png)
 
 > Highlighted line - last message
 
