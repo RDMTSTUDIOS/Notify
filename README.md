@@ -60,7 +60,9 @@ Return responce: string - what was send and deleted.
 ```js
 customConsole.message(content: any)
 ```
-![Снимок экрана 2022-11-12 в 16 46 59](https://user-images.githubusercontent.com/118057254/201478896-a8f0caac-e673-4509-b6d4-cfb2daf20aec.png)
+![Снимок экрана 2022-11-13 в 22 07 56](https://user-images.githubusercontent.com/118057254/201539587-ddc1d7b0-f1d6-4743-8c60-d009dccd7a60.png)
+
+> Highlighted line - last message
 
 #### Minimize / Expand
 Just a minimize button functionality, but programmatically.
