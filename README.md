@@ -7,7 +7,6 @@ Custom simple draggble visual console for web development.
 Import Notify and initiate first custom console.
 
 > For proper work use bundlers or any other tool that can resolve static import paths.
-> Parcel, Vite (ViteJS) will be ok.
 
 ```js
 import Notify from "..." // Entry point is notify/index.ts
@@ -33,7 +32,7 @@ Your first console will appear on the page. You can create any amount of console
 
 Highlighted line - last message.
 
-![Снимок экрана 2022-11-12 в 16 46 25](https://user-images.githubusercontent.com/118057254/201477439-fb154a49-2f29-41f6-a350-d67b79ef2f92.png)
+![Снимок экрана 2022-11-13 в 22 05 15](https://user-images.githubusercontent.com/118057254/201539548-f4a1ebb8-7677-4683-ad2b-5ccf3a2ecebb.png)
 
 ## Interface
 
