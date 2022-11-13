@@ -44,6 +44,21 @@ There are two buttons - minimize view and clear history.
 
 By clicking on the any cell message content will be copied to clipboard.
 
+## Try it / Test
+
+Notify also includes file with visual test.
+
+To use it just import `NotifyCoreTest` from `"notify/test"` and call function `NotifyCoreTest()`.
+
+```js
+import NotifyCoreTest from "./notify/test";
+NotifyCoreTest();
+```
+
+It will insert a light preview to the DOM.
+
+![Снимок экрана 2022-11-13 в 22 06 06](https://user-images.githubusercontent.com/118057254/201539994-01442c8f-9492-4108-b780-93f22554f334.png)
+
 ## API
 
 #### Return console
