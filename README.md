@@ -44,7 +44,7 @@ There are two buttons - minimize view and clear history.
 
 **Clear history** deletes all elements from the history.
 
-By clicking on the any cell message content will be copied to clipboard.
+By clicking on the any message cell content will be copied to clipboard.
 
 ![Снимок экрана 2022-11-13 в 22 22 22](https://user-images.githubusercontent.com/118057254/201540295-3158eea1-b076-44b1-b78a-a842bde5a5ba.png)
 
