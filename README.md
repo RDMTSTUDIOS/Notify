@@ -28,9 +28,11 @@ MyConsole.display();
 ```
 Your first console will appear on the page. You can create any amount of consoles.
 
+![Снимок экрана 2022-11-13 в 22 24 10](https://user-images.githubusercontent.com/118057254/201540254-d6b8b349-f973-4e30-887e-18c36318616a.png)
+
 **Consoles are fully draggble, you can put them in any place on the page by dragging them by the title part of the console.**
 
-![Снимок экрана 2022-11-13 в 22 05 15](https://user-images.githubusercontent.com/118057254/201539548-f4a1ebb8-7677-4683-ad2b-5ccf3a2ecebb.png)
+![Снимок экрана 2022-11-13 в 22 20 50](https://user-images.githubusercontent.com/118057254/201540268-457e98e2-fe89-44ea-ae8c-893aa525d331.png)
 
 ## Interface
 
@@ -43,6 +45,8 @@ There are two buttons - minimize view and clear history.
 **Clear history** deletes all elements from the history.
 
 By clicking on the any cell message content will be copied to clipboard.
+
+![Снимок экрана 2022-11-13 в 22 22 22](https://user-images.githubusercontent.com/118057254/201540295-3158eea1-b076-44b1-b78a-a842bde5a5ba.png)
 
 ## Try it / Test
 
