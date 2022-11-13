@@ -30,7 +30,7 @@ Your first console will appear on the page. You can create any amount of console
 
 ![Снимок экрана 2022-11-13 в 22 24 10](https://user-images.githubusercontent.com/118057254/201540254-d6b8b349-f973-4e30-887e-18c36318616a.png)
 
-**Consoles are fully draggble, you can put them in any place on the page by dragging them by the title part of the console.**
+Consoles are fully draggble, you can put them in any place on the page by dragging them by the title part of the console.
 
 ![Снимок экрана 2022-11-13 в 22 20 50](https://user-images.githubusercontent.com/118057254/201540268-457e98e2-fe89-44ea-ae8c-893aa525d331.png)
 
