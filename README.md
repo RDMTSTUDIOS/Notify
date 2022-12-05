@@ -1,6 +1,6 @@
 # Notify
 
-Custom simple draggble visual console for web development.
+Custom simple draggable visual console for web development.
 
 ## Usage
 
